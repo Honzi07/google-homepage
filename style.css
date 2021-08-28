@@ -1,15 +1,67 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
 #nav {
-    display: inline;
-    float: right;
+    position: absolute;
+    top: 12px;
+    right: 16px;
+}
+
+.nav-link {
+    color: #222426;
+    font-size: 13px;
+    padding: 6px;
+}
+
+#nav-apps {
+    padding: 10px;
+    margin: 0 8px;
+    color: #5f6368;
+}
+
+#nav-apps:hover {
+    border-radius: 90%;
+    background-color: #dedee07a;
+}
+
+.material-icons {
+    position:relative;
+    left: 1px;
+    top: 6px;
+}
+
+#sign-in {
+    color: white;
+    background-color: #1a73e8;
+    padding: 10px 26px;
+    font-size: 14px;
+    border-radius: 7%;
+}
+
+#sign-in:hover {
+    text-decoration: none;
+    background-color: #1a73e8ee;
+    box-shadow: 0px 0px 2px 2px #1a73e82c;
 }
 
 .google {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 222px;
 }
 
 .search {
     margin: 0 auto;
     width: 23%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
