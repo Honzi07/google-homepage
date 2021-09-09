@@ -17,7 +17,7 @@ a:hover {
 }
 
 .nav-link {
-    color: #222426;
+    color: #2b2b2b;
     font-size: 13px;
     padding: 6px;
 }
@@ -44,7 +44,7 @@ a:hover {
     background-color: #1a73e8;
     padding: 10px 26px;
     font-size: 14px;
-    border-radius: 7%;
+    border-radius: 4px;
 }
 
 #sign-in:hover {
@@ -101,6 +101,28 @@ input:focus {
     outline: none;
 }
 
+#button-div {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.search-button {
+    position: relative;
+    margin: 6px;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 4px;
+    color: #2b2b2b; 
+    background-color: #ebebeb5e;
+}
+
+.search-button:hover {
+    text-decoration: none;
+    border: 1px solid #dedee0ea;
+    box-shadow: 0 1px 1px #c4c4c4f8;
+}
+
 footer {
     position: fixed;
     display: flex;
@@ -116,7 +138,7 @@ footer {
 .footer-link {
     margin: 0 15px;
     font-size: 14px;
-    color: #302424; 
+    color: #777;
 }
 
 .footer-link-left {
